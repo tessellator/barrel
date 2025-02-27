@@ -9,7 +9,6 @@ export default defineConfig({
     globals: true,
     environment: "jsdom",
     setupFiles: "./vitest.setup.ts",
-    maxConcurrency: 20,
     pool: "threads",
     poolOptions: {
       threads: {
