@@ -3,10 +3,6 @@
 src_file="src/components/Counter.test.tsx"
 dest_dir="src/components"
 
-
-echo "Deleting files: $dest_dir/Counter-*.test.tsx"
-ls $dest_dir/Counter-*.test.tsx 2>/dev/null
-
 rm -f $dest_dir/Counter-*.test.tsx
 
 for i in $(seq 1 1000); do
